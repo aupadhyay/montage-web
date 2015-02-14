@@ -1,9 +1,30 @@
+<?php
+  require("header.php");
+?>
 <html>
-<head>
-	<title>Login</title>
-</head>
-<body>
-	<h1>Login Page</h1>
-</body>
+	<body>
+		
+    <div class="container">
+			<div class="jumbotron">
+				<h1>Hi! Welcome to Montage...</h1>
+			</div>
+		</div>
+
+	</body>	
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

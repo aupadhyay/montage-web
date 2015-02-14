@@ -7,11 +7,10 @@
 				<h1>Hi! Welcome to Montage...</h1>
 			</div>
 
+    <h2>What is Montage?</h2>
+    <p>Montage is</p>
 
 		</div>
-
-    <h2>What is Montage?</h2>
-    <p>MOntage is</p>
 
 		<script src="js/bootstrap.js"></script>
 	</body>	

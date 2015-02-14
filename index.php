@@ -9,7 +9,7 @@
 		<h1>Hi, Welcome to Your Friendly Montage Creator!</h1>
 		<div class="container">
 			<div class="jumbotron">
-				<h6> yash is fat</h6>
+				<h1> yash is fat</h1>
 			</div>
 		</div>
 		<script src="js/bootstrap.js"></script>

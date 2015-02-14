@@ -23,6 +23,7 @@
         				<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
         				<li><a href="#">Link</a></li>
                 <li><a href="login-page.php"><button class="btn btn-primary">Login!</button></a></li>
+                <li><a href="register.php"><button class="btn btn-primary">Login!</button></a></li>
       				</ul>
     			</div><!-- /.navbar-collapse -->
   			</div><!-- /.container-fluid -->

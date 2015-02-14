@@ -34,7 +34,6 @@
 				<h1>Hi! Welcome to Montage...</h1>
 			</div>
 
-      
 
 		</div>
 

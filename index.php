@@ -22,8 +22,8 @@
       				<ul class="nav navbar-nav">
         				<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
         				<li><a href="#">Link</a></li>
-                <li><a href="login-page.php"><button class="btn btn-primary" style="margin:auto">                                                                 Login</button></a></li>
-                <li><a href="register-page.php"><button class="btn btn-primary" style="margin:auto">Register</button></a></li>
+                <li><a href="login-page.php"><button class="btn btn-primary" style="margin:auto">Login</button></a></li>
+                <li><a href="register-page.php"><button class="btn btn-primary" style="margin:auto">Suck now for free</button></a></li>
       				</ul>
     			</div><!-- /.navbar-collapse -->
   			</div><!-- /.container-fluid -->

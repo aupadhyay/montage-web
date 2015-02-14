@@ -66,7 +66,7 @@
 			<div class="jumbotron">
 				<h1>Hi! Welcome to Montage...</h1>
 			</div>
-      <a href="login-page.php"><button type="button">Login!</button></a>
+      <a href="login-page.php"><button type="primary">Login!</button></a>
       
 
 		</div>

@@ -6,7 +6,7 @@
 		
 	</head>
 	<body>
-		<!-- ADD NAV BAR HERE -->
+		<!-- ADD NAV BAR HERE (Here)-->
 		<div class="container">
 			<div class="jumbotron">
 				<h1>Hi! Welcome to Montage..</h1>

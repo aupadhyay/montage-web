@@ -3,9 +3,9 @@
 	<head>
 		<title>Montage</title>
 		<link rel="stylesheet" href="css/bootstrap.css">
+      <style>
 	</head>
 	<body>
-		<!-- ADD NAV BAR HERE (Here)-->
 		<nav class="navbar navbar-inverse">
   			<div class="container">
    				<div class="navbar-header">
@@ -30,12 +30,15 @@
 		</nav>
 		
 		<div class="container">
-			<div class="jumbotron">
+			<div class="jumbotron"> 
 				<h1>Hi! Welcome to Montage...</h1>
 			</div>
 
 
 		</div>
+
+    <h2>What is Montage?</h2>
+    <p>MOntage is</p>
 
 		<script src="js/bootstrap.js"></script>
 	</body>	

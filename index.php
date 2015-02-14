@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<!-- ADD NAV BAR HERE (Here)-->
-		<nav class="navbar navbar-default" style="background-color:green">
+		<nav class="navbar navbar-default">
   			<div class="container">
    				<div class="navbar-header">
       				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -34,7 +34,7 @@
 				<h1>Hi! Welcome to Montage...</h1>
 			</div>
 		</div>
-		
+
 		<script src="js/bootstrap.js"></script>
 	</body>	
 </html>

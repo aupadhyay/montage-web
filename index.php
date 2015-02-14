@@ -67,12 +67,12 @@
 				<h1>Hi! Welcome to Montage...</h1>
 			</div>
         <button type="button" class="btn btn-default" aria-label="Left Align">
-  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
-</button>
+          <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+        </button>
 
-<button type="button" class="btn btn-default btn-lg">
-  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
-</button>
+        <button type="button" class="btn btn-default btn-lg">
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
+        </button>
 		</div>
 		<script src="js/bootstrap.js"></script>
 	</body>	

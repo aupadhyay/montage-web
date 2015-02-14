@@ -6,8 +6,8 @@
 	</head>
 	<body>
 		<h1>Hi, Welcome to Your Friendly Montage Creator!</h1>
-		<div class="jumbotron">
-			<div class="container">
+		<div class="container">
+			<div class="jumbotron">
 				<h6> yash is fat</h6>
 			</div>
 		</div>

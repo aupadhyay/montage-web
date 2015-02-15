@@ -11,7 +11,9 @@
         <div class="col-md-6">
           <h1></h1>  
           <p>BRUH..</p>
-
+        </div>
+        <div class="col-md-6">
+          <p>Bruh..</p>
         </div>
       </div>
 		<script src="js/bootstrap.js"></script>

@@ -1,16 +1,5 @@
 <?php
 	require("header.php");
-	require("../databases/config.php");
-	if(isset($_POST['first_name'])){
-		echo "Post received!";
-		$first_name = $_POST['first_name'];
-		$last_name = $_POST['last_name'];
-		$email = $_POST['email'];
-		$password = $_POST['password'];
-		$sql_query = mysql_query("INSERT INTO `users` (`first_name`, `last_name`, `email`,`pass`) VALUES ('$first_name','$last_name','$email','$password');");
-		echo "Test";
-	}
-
 ?>
 
 <html>
@@ -21,7 +10,7 @@
 				<h1>Register</h1>
 
 				<!--Register Form -->
-				<form action="register.php" method="POST" name="registerForm">
+				<form action="register-sql.php" method="POST" name="registerForm">
 					<label for="first_name">
 						First Name:
 						<input type="text"class="form-control" id="first_name" name="first_name"placeholder="First Name...">

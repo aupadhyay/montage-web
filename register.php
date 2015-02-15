@@ -21,7 +21,7 @@
 				<h1>Register</h1>
 
 				<!--Register Form -->
-				<form action="register-sql.php" method="POST" name="registerForm">
+				<form action="register.php" method="POST" name="registerForm">
 					<label for="first_name">
 						First Name:
 						<input type="text"class="form-control" id="first_name" name="first_name"placeholder="First Name...">

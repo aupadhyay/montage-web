@@ -16,6 +16,7 @@
 	<body>
 		<div class="container">
 			<div class="jumbotron">
+				<h1>Register</h1>
 				<form action="register.php" method="post">
 					<label for="email">First Name:</label>
 					<input type="text" name="first_name" class="form-control" id="first_name" placeholder="First Name"><br>

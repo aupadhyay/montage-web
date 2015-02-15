@@ -22,7 +22,7 @@
    			  <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       				<form class="navbar-form navbar-left" role="search">
                 <div class="form-group">
-                  <input type="text" class="form-control" style="width:50px;" placeholder="Search">
+                  <input type="text" class="form-control" style="width:450px;" placeholder="Search">
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
               </form>

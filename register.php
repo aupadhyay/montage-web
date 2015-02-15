@@ -1,5 +1,10 @@
 <?php
 	require("header.php");
+	if(isset($_POST['first_name'])){
+		echo $_POST['first_name'];
+		echo $_POST['last_name'];
+		echo $_POST['email'];
+	}
 ?>
 
 <html>
@@ -28,7 +33,7 @@
 						<input type="password" class="form-control" id="password" name="password"placeholder="Password...">
 					</label><br>
 
-					<input class="btn form-control" type="submit">
+					<input class="btn" type="submit">
 				</form>
 			</div>
 		</div>

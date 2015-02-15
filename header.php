@@ -4,7 +4,7 @@
 		<title>!SparkUs</title>
 		<link rel="stylesheet" href="css/bootstrap.css">
 <<<<<<< HEAD
-<<<<<<< HEAD
+
     <link rel="stylesheet" href="main.css">
 =======
 >>>>>>> FETCH_HEAD
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
 >>>>>>> FETCH_HEAD
 	</head>
-	<body>
+	<body style="background-color: #F5F5F5">
 		<!-- ADD NAV BAR HERE (Here)-->
 		<nav class="navbar navbar-inverse">
   			<div class="container">

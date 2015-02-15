@@ -1,11 +1,16 @@
 <?php
 	session_start();
-	require("../databases/config_users.php");
+	echo "Why";
+	require("../databases/config.php");
+	echo "Test";
+
 	if(isset($_POST['email'])){
 		$username = mysql_escape_string($_POST['email']);
 		$pass = mysql_escape_string($_POST['password']);
+		echo "<br>".$username."<br>";
+		echo "<br>".$pass."<br>";
 		$query = mysql_query("SELECT * FROM `users` WHERE `email`='$username' AND `pass`='$pass'");
-
+		echo "1";
 		if(mysql_num_rows($query) > 0 ){
 			$_SESSION['loggedin'] = 1;
 			echo "Logged In!";
@@ -19,8 +24,10 @@
 			$_SESSION["first_name"] = $first_name;
 			$_SESSION["last_name"] = $last_name;
 			$_SESSION["email"] = $email;
-			
+			echo $first_name;
+			echo $last_name;	
 		}
+		echo "Nope";
 	}
 	else{
 		echo "not set";

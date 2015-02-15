@@ -4,12 +4,16 @@
 		
 		<div class="container">
 			<div class="jumbotron"> 
-				<h1>Hi! Welcome to <em>SparkUs</em>...</h1>
+				<h1>Hi! Welcome to <em>SparkUS</em>...</h1>
 			</div>
-
-    <h2><strong>What is SparkUs?</strong></h2>
 		</div>
+        <div class="row">
+        <div class="col-md-6">
+          <h1></h1>  
+          <p>BRUH..</p>
 
+        </div>
+      </div>
 		<script src="js/bootstrap.js"></script>
 	
 

@@ -4,11 +4,12 @@
 		
 		<div class="container">
 			<div class="jumbotron"> 
-				<h1>Hi! Welcome to <em>Spaekus</em>...</h1>
+				<h1>Hi! Welcome to <em>Sparkus</em>...</h1>
 			</div>
 
     <h2><strong>What is Sparkus?</strong></h2>
-    <p>Sparkus</p>
+    <p>Sparkus is a collaborating network for people of all ages who need help <br>in igniting their idea.
+    </p>
 
 		</div>
 

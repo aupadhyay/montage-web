@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require("../databases/config_users.php");
+	require("../databases/config.php");
 	if(isset($_POST['email'])){
 		$username = mysql_escape_string($_POST['email']);
 		$pass = mysql_escape_string($_POST['password']);

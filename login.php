@@ -4,7 +4,7 @@
 	require("header.php");
 	if(isset($_POST['email'])){
 		$username = mysql_escape_string($_POST['email']);
-		$pass = mysql_escape_string($_POST['password']);
+		$pass = mysql_escape_string($_POST['pass']);
 		echo "<br>".$username."<br>";
 		echo "<br>".$pass."<br>";
 		$query = mysql_query("SELECT * FROM `users` WHERE `email`='$username' AND `pass`='$pass'");

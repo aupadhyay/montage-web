@@ -28,7 +28,7 @@
 						<input type="password" class="form-control" id="password" name="password"placeholder="Password...">
 					</label><br>
 
-					<input type="submit">
+					<input class="btn" type="submit">
 				</form>
 			</div>
 		</div>

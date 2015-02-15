@@ -8,7 +8,11 @@
 		$email = mysql_escape_string($_POST['email']); 
 		$password = mysql_escape_string($_POST['password']);
 		$sql_query = mysql_query("INSERT INTO `users` (`first_name`, `last_name`, `email`,`pass`) VALUES ('$first_name','$last_name','$email','$password');");
-		echo "Test";
+		echo $sql_query;
+		echo $first_name;
+		echo $last_name;
+		echo $email;
+
 	}
 
 ?>

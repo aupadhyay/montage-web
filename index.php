@@ -1,6 +1,5 @@
 <?php
   require("header.php");
-  require("main.css");
 ?>
 		
 		<div class="container">

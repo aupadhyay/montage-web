@@ -4,7 +4,7 @@
 		
 		<div class="container">
 			<div class="jumbotron"> 
-				<h1>Hi! Welcome to <em>SparkUS</em>...</h1>
+				<h1>Hi! Welcome to <em><em>SparkUS</em></em>...</h1>
 			</div>
 		</div>
         <div class="container">

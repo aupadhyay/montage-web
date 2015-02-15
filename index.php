@@ -12,7 +12,7 @@
         <div class="col-md-6">
           <h1></h1>  
           <p>BRUH..</p>
-          <ul><li>abhi</li><li><li>is fat</li></ul>
+          <ul><ul><li>abhi</li><li><li>is fat</li></li></ul></ul>
         </div>
         <div class="col-md-6">
           <p>Bruh..</p>

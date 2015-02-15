@@ -28,6 +28,8 @@
       				</ul>
     			</div><!-- /.navbar-collapse -->
   			</div><!-- /.container-fluid -->
+        <br>
+        <br>
 		</nav>
 
         <script src="js/bootstrap.js"></script>

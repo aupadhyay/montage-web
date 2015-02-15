@@ -19,8 +19,10 @@
 			$_SESSION["first_name"] = $first_name;
 			$_SESSION["last_name"] = $last_name;
 			$_SESSION["email"] = $email;
-			
+			echo $first_name;
+			echo $last_name	
 		}
+		echo "Nope";
 	}
 	else{
 		echo "not set";

@@ -1,8 +1,34 @@
+<?php
+	require("header.php");
+?>
+
 <html>
-<head>
-	<title>Register</title>
-</head>
-<body>
-	<h1>Register Page</h1>
-</body>
+	
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Register</h1>
+
+				<!--Register Form -->
+				<form action="register.php" method="POST" name="registerForm">
+					<label for="first_name">
+						First Name:
+						<input type="text"class="form-control" id="first_name" name="first_name"placeholder="First Name...">
+					</label>
+					<label for="last_name">
+						Last Name:
+						<input type="text"class="form-control" id="last_name" name="last_name"placeholder="Last Name...">
+					</label>
+					<label for="email">
+						Email:
+						<input type="email" class="form-control"id="email" name="email"placeholder="Email...">
+					</label>
+					<label for="password">
+						Password:
+						<input type="password" class="form-control" id="password" name="password"placeholder="Password...">
+					</label>
+				</form>
+			</div>
+		</div>
+	</body>
 </html>

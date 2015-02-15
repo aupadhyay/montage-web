@@ -16,7 +16,7 @@
         				<span class="icon-bar"></span>
         				<span class="icon-bar"></span>
       				</button>
-      				<a class="navbar-brand" href="#">Brand</a>
+      				<a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo"></a>
     			</div>
 
    				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

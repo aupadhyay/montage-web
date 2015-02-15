@@ -25,7 +25,7 @@
 						Email:
 						<input class="form-control" type="text" value=<?php echo $email;?>>
 					</label>
-					
+					<input type="submit">
 				</form>
 			</div>
 		</div>

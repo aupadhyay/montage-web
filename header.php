@@ -27,9 +27,10 @@
                 <li><a href="register.php"><button class="btn btn-primary">Register!</button></a></li>
       				</ul>
     			</div><!-- /.navbar-collapse -->
-          <br>
-          <br>
   			</div><!-- /.container-fluid -->
+          <br>
+          <br>
+
 		</nav>
 
         <script src="js/bootstrap.js"></script>

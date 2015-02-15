@@ -26,13 +26,15 @@
 
    				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav">
-        				<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        				<li><a href="#">About</a></li>
-                <li><a href="login-page.php"><button class="btn btn-primary">Login!</button></a></li>
-                <li><a href="register.php"><button class="btn btn-primary">Register!</button></a></li>
+        				<li class="nav-link"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        				<li class="nav-link"><a href="#" style="color: #def2ff !important;">About</a></li>
+                <li class="nav-link"><a href="login.php">Login</a></li>
+                <li class="nav-link"><a href="register.php">Register</a></li>
       				</ul>
     			</div><!-- /.navbar-collapse -->
   			</div><!-- /.container-fluid -->
+        <br>
+        <br>
 		</nav>
 
         <script src="js/bootstrap.js"></script>

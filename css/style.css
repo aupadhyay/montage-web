@@ -2,5 +2,15 @@
 	background-color: #e27474;
 	border-radius: 0;
 	border-bottom: 0;
+<<<<<<< HEAD
 	font-size:250px;
+=======
+	border-top: 0;
+}
+
+.nav-link a {
+	color: #def2ff !important;
+	font-size: 20px;
+	padding-top: 10px;
+>>>>>>> FETCH_HEAD
 }

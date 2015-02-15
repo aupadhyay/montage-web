@@ -5,7 +5,7 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 	</head>
-  
+
 	<body>
 		<!-- ADD NAV BAR HERE (Here)-->
 		<nav class="navbar navbar-inverse">
@@ -19,8 +19,7 @@
       				</button>
       				<a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo" width="135" height="45"></a>
     			</div>
-        </div>
-   			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+   			  <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav">
         				<li class="nav-link"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
         				<li class="nav-link"><a href="about.php">About</a></li>

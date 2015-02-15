@@ -10,7 +10,6 @@
 		$query = mysql_query("SELECT * FROM `users` WHERE `email`='$username' AND `pass`='$pass'");
 		if(mysql_num_rows($query) > 0 ){
 			$_SESSION['loggedin'] = 1;
-			echo "Logged In!";
 			while ($row = mysql_fetch_object($query)){
 				$id = $row->ID;
 				$first_name = $row->name;
@@ -21,10 +20,10 @@
 			$_SESSION["first_name"] = $first_name;
 			$_SESSION["last_name"] = $last_name;
 			$_SESSION["email"] = $email;
-			echo $first_name;
-			echo $last_name;	
+			header("Location: myaccount.php");
+		}else{
+			echo "Incorrect email or password!";
 		}
-		echo "string";
 	}
 	else{
 		echo "not set";

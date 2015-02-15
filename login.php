@@ -24,6 +24,7 @@
 			echo $first_name;
 			echo $last_name;	
 		}
+		echo "string";
 	}
 	else{
 		echo "not set";

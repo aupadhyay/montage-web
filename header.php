@@ -19,7 +19,7 @@
       				<a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo" width="135" height="45"></a>
     			</div>
 
-   				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+   				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav navbar-right">
         				<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
         				<li><a href="#">Link</a></li>

@@ -22,7 +22,7 @@
    				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav">
         				<li class="active nav-link"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        				<li class="nav-link"><a href="#">About</a></li>
+        				<li class="nav-link"><a href="#" style="color: #def2ff !important;">About</a></li>
                 <li class="nav-link"><a href="login-page.php"><button class="btn btn-primary">Login!</button></a></li>
                 <li class="nav-link"><a href="register.php"><button class="btn btn-primary">Register!</button></a></li>
       				</ul>

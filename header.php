@@ -16,7 +16,7 @@
         				<span class="icon-bar"></span>
         				<span class="icon-bar"></span>
       				</button>
-      				<a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo" width="135" height="45"></a><br>
+      				<a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo" width="135" height="45"></a>
     			</div>
 
    				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -27,6 +27,8 @@
                 <li><a href="register.php"><button class="btn btn-primary">Register!</button></a></li>
       				</ul>
     			</div><!-- /.navbar-collapse -->
+          <br>
+          <br>
   			</div><!-- /.container-fluid -->
 		</nav>
 

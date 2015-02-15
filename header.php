@@ -23,8 +23,8 @@
       				<ul class="nav navbar-nav">
         				<li class="nav-link"><a href="#">Home <span class="sr-only">(current)</span></a></li>
         				<li class="nav-link"><a href="#" style="color: #def2ff !important;">About</a></li>
-                <li class="nav-link"><a href="login-page.php">Login!</a></li>
-                <li class="nav-link"><a href="register.php">Register!</a></li>
+                <li class="nav-link"><a href="login.php">Login</a></li>
+                <li class="nav-link"><a href="register.php">Register</a></li>
       				</ul>
     			</div><!-- /.navbar-collapse -->
   			</div><!-- /.container-fluid -->

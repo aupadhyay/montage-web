@@ -1,6 +1,7 @@
 <?php
 	session_start();
 	require("header.php");
+	require("../databases/config.php");
 	$id = $_SESSION['id'];
 	$first_name = $_SESSION['first_name'];
 	$last_name = $_SESSION['last_name'];
@@ -10,6 +11,12 @@
 		$first_name = $_POST['first_name'];
 		$last_name = $_POST['last_name'];
 		$email = $_POST['email'];
+
+		$update_sql = mysql_query("UPDATE `users` SET `first_name`='$first_name', `last_name`='$last_name', `email`='$email' WHERE `id`='$id'");	
+		$_SESSION['first_name'] = $first_name;
+		$_SESSION['last_name'] = $last_name;
+		$_SESSION['email'] = $email;	
+		echo $_SESSION['first_name'];
 	}
 ?>
 <html>

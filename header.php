@@ -3,7 +3,10 @@
 	<head>
 		<title>!SparkUs</title>
 		<link rel="stylesheet" href="css/bootstrap.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="main.css">
+=======
+>>>>>>> FETCH_HEAD
 	</head>
 	<body>
 		<!-- ADD NAV BAR HERE (Here)-->

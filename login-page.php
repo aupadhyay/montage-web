@@ -9,11 +9,11 @@
 				<h1>Login</h1>
 				<form method="POST"action="login-sql.php">
 					<label for="email">
-						<input type="email" placeholder="Email...">
-					</label>
+						<input class="form-control" type="email" placeholder="Email...">
+					</label><br>
 					<label for="password">
-						<input type="password" placeholder="Password...">
-					</label>
+						<input class="form-control" type="password" placeholder="Password...">
+					</label><br>
 					<input type="submit" class="btn">
 				</form>
 			</div>

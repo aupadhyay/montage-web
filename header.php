@@ -21,8 +21,8 @@
 
    				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav navbar-right">
-        				<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        				<li><a href="#">Link</a></li>
+        				<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+        				<li><a href="#">About</a></li>
                 <li><a href="login-page.php"><button class="btn btn-primary">Login!</button></a></li>
                 <li><a href="register.php"><button class="btn btn-primary">Register!</button></a></li>
       				</ul>

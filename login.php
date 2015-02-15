@@ -9,9 +9,9 @@
 		if(mysql_num_rows($query) > 0 ){
 			$_SESSION['loggedin'] = 1;
 			while ($row = mysql_fetch_object($query)){
-				$id = $row->ID;
-				$first_name = $row->name;
-				$last_name = $row->lname;
+				$id = $row->id;
+				$first_name = $row->first_name;
+				$last_name = $row->last_name;
 				$email = $row->email;
 			}
 			$_SESSION["id"] = $id;

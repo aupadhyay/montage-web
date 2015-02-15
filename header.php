@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Montage</title>
+		<title>Sparkus</title>
 		<link rel="stylesheet" href="css/bootstrap.css">
 	</head>
 	<body>

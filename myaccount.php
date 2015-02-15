@@ -12,7 +12,7 @@
 	<body>
 		<div class="container">
 			<div class="jumbotron">
-				<h1>My Account</h1>
+				<h1>My Account <?php echo $first_name;?></h1>
 				<form action=""></form>
 			</div>
 		</div>

@@ -3,7 +3,7 @@
 	<head>
 		<title>!SparkUs</title>
 		<link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css.main">
+    <link rel="stylesheet" href="main.css">
 	</head>
 	<body>
 		<!-- ADD NAV BAR HERE (Here)-->

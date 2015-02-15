@@ -5,7 +5,7 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 	</head>
-	<body style="color:#F5F5F5">
+	<body>
 		<!-- ADD NAV BAR HERE (Here)-->
 		<nav class="navbar navbar-inverse">
   			<div class="container">

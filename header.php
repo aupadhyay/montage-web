@@ -16,13 +16,13 @@
         				<span class="icon-bar"></span>
         				<span class="icon-bar"></span>
       				</button>
-      				<a class="navbar-brand" href="#">Brand</a>
+      				<a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo" width="135" height="45"></a>
     			</div>
 
-   				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+   				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav">
-        				<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        				<li><a href="#">Link</a></li>
+        				<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        				<li><a href="#">About</a></li>
                 <li><a href="login-page.php"><button class="btn btn-primary">Login!</button></a></li>
                 <li><a href="register.php"><button class="btn btn-primary">Register!</button></a></li>
       				</ul>

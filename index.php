@@ -17,7 +17,7 @@
           <p>Bruh..</p>
         </div>
       </div>
-    </dsiv>
+    </div>
 		<script src="js/bootstrap.js"></script>
 	
 

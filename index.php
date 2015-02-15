@@ -7,8 +7,8 @@
 				<h1>Hi! Welcome to Montage...</h1>
 			</div>
 
-    <h2>What is Montage?</h2>
-    <p>Montage is</p>
+    <h2><strong>What is Montage?</strong></h2>
+    <p></p>
 
 		</div>
 

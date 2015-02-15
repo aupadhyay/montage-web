@@ -14,15 +14,18 @@
 				<h1>My Account-<?php echo $first_name;?></h1>
 				<form action="myaccount.php" method="post">
 					<label for="first_name">
+						First Name:
 						<input class="form-control" type="text" value=<?php echo $first_name;?>>
-					</label>
+					</label><br>
 					<label for="last_name">
+						Last Name:
 						<input class="form-control" type="text" value=<?php echo $last_name;?>>
-					</label>
+					</label><br>
 					<label for="email">
+						Email:
 						<input class="form-control" type="text" value=<?php echo $email;?>>
 					</label>
-
+					
 				</form>
 			</div>
 		</div>

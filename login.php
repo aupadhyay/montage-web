@@ -1,16 +1,13 @@
 <?php
 	session_start();
-	echo "Why";
 	require("../databases/config.php");
-	echo "Test";
-
+	require("header.php");
 	if(isset($_POST['email'])){
 		$username = mysql_escape_string($_POST['email']);
 		$pass = mysql_escape_string($_POST['password']);
 		echo "<br>".$username."<br>";
 		echo "<br>".$pass."<br>";
 		$query = mysql_query("SELECT * FROM `users` WHERE `email`='$username' AND `pass`='$pass'");
-		echo "1";
 		if(mysql_num_rows($query) > 0 ){
 			$_SESSION['loggedin'] = 1;
 			echo "Logged In!";
@@ -27,10 +24,29 @@
 			echo $first_name;
 			echo $last_name;	
 		}
-		echo "Nope";
 	}
 	else{
 		echo "not set";
 	}
 
 ?>
+
+<html>
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Login</h1>
+				<form action="login.php" method="post">
+					<label for="email">
+						Email:
+						<input class="form-control" type="email" name="email" id="email" placeholder="Email">
+					</label>
+					<label for="password">
+						<input class="form-control" type="password" name="pass" id="pass" placeholder="Password">
+					</label>
+					<input class="btn" type="submit">
+				</form>	
+			</div>
+		</div>
+	</body>
+</html>

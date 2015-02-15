@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	echo "Why";
 	require("../databases/config.php");
 	echo "Test";
 	if(isset($_POST['email'])){
@@ -21,7 +22,7 @@
 			$_SESSION["last_name"] = $last_name;
 			$_SESSION["email"] = $email;
 			echo $first_name;
-			echo $last_name	
+			echo $last_name;	
 		}
 		echo "Nope";
 	}

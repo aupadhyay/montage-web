@@ -5,8 +5,6 @@
 	if(isset($_POST['email'])){
 		$username = mysql_escape_string($_POST['email']);
 		$pass = mysql_escape_string($_POST['pass']);
-		echo "<br>".$username."<br>";
-		echo "<br>".$pass."<br>";
 		$query = mysql_query("SELECT * FROM `users` WHERE `email`='$username' AND `pass`='$pass'");
 		if(mysql_num_rows($query) > 0 ){
 			$_SESSION['loggedin'] = 1;
@@ -22,7 +20,7 @@
 			$_SESSION["email"] = $email;
 			header("Location: myaccount.php");
 		}else{
-			echo "Incorrect email or password!";
+			echo "<div class='container' style='color:red !important;'>Incorrect email or password!</div>";
 		}
 	}
 	else{

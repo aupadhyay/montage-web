@@ -3,6 +3,10 @@
 	<head>
 		<title>!SparkUs</title>
 		<link rel="stylesheet" href="css/bootstrap.css">
+<<<<<<< HEAD
+    <link rel="stylesheet" href="main.css">
+=======
+>>>>>>> origin/master
     <link rel="stylesheet" href="css/style.css">
 	</head>
 	<body style="background-color: #F5F5F5">

@@ -12,7 +12,7 @@
         <div class="row">
         <div class="col-md-6">
           <h1></h1>  
-          <p>BRUH..</p>
+          <p>do not register..</p>
         </div>
         <div class="col-md-6">
           <p>Bruh..</p>
